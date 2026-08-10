@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personally Said — Coming Soon</title>
+<meta name="description" content="Personally Said — voice messages from friends and family, compiled into one keepsake recording. Coming soon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Space+Mono:wght@400;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #F4EFE7; font-family: 'Montserrat', sans-serif; }
+  a { color: #7C2A1E; text-decoration: none; }
+  a:hover { color: #5A1E15; text-decoration: underline; }
+  .email-btn:hover { background: #5A1E15 !important; color: #F4EFE7 !important; text-decoration: none !important; }
+  @keyframes psRise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+</style>
+</head>
+<body>
+
+<div style="background:#F4EFE7;min-height:100svh;color:#241E1A;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:clamp(40px,8vh,90px) clamp(20px,6vw,48px);text-align:center;gap:0">
+
+  <img src="./assets/ps-logo.png" alt="Personally Said" style="width:min(560px,82vw);height:auto;display:block;margin:0 0 clamp(28px,5vw,44px);animation:psRise 0.7s ease-out both">
+
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:clamp(20px,3.5vw,28px);animation:psRise 0.7s ease-out 0.1s both">
+    <span style="display:block;width:28px;height:1px;background:#C8B49A"></span>
+    <span style="font-family:'Space Mono',monospace;font-size:clamp(13px,1.8vw,15px);letter-spacing:0.24em;text-transform:uppercase;color:#7C2A1E">Coming Soon</span>
+    <span style="display:block;width:28px;height:1px;background:#C8B49A"></span>
+  </div>
+
+  <p style="font-family:'Montserrat',sans-serif;font-weight:400;font-size:clamp(15px,1.8vw,17.5px);line-height:1.75;color:#4A4038;max-width:52ch;margin:0 0 clamp(32px,5vw,44px);text-wrap:pretty">Personally Said turns voice messages from friends and family into a special keepsake recording for the person you're celebrating. Call or text in — no app, no sign-up — and we compile every voice into a single recording, delivered with a card made just for them.</p>
+
+  <div style="display:flex;flex-direction:column;align-items:center;gap:14px;background:#FFFDF9;border:1px solid #DED2C2;border-radius:6px;padding:clamp(20px,4vw,32px) clamp(16px,5vw,44px);box-shadow:0 10px 26px rgba(60,30,20,0.06);transform:rotate(-0.8deg);max-width:100%">
+    <img src="./assets/envelope-icon.png" alt="" style="width:76px;height:auto;display:block;opacity:0.9">
+    <p style="font-family:'Montserrat',sans-serif;font-size:14.5px;line-height:1.6;color:#4A4038;margin:0;max-width:34ch">We're in beta right now. For questions, <br>early access, or partnerships — write to us.</p>
+    <a href="mailto:hello@personallysaid.co" class="email-btn" style="font-family: 'Space Mono',monospace; font-size: clamp(11px,3.6vw,15px); letter-spacing: 0.1em; color: #F4EFE7; background: #7C2A1E; border-radius: 3px; padding: 14px clamp(12px,4vw,24px); display: inline-block; max-width: 100%; white-space: nowrap">hello@personallysaid.co</a>
+  </div>
+
+  <div style="font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:#8C7F72;margin-top:clamp(36px,6vw,56px)">© 2026 Personally Said</div>
+
+</div>
+
+</body>
+</html>
